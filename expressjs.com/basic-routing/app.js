@@ -19,8 +19,7 @@ app.use((err, req, res, next) => {
     res.render("error");
 });
 
-// app.listen(PORT, () => {
-//     console.log(`express app listening on post ${PORT}.`);
-// });
+
+// app.listen is located on `/bin/www` file.
 
 module.exports = app;
